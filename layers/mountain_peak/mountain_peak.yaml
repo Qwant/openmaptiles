@@ -1,5 +1,8 @@
 layer:
   id: "mountain_peak"
+  requires:
+    tables:
+      - ne_10m_admin_0_countries
   description: |
       [Natural peaks](http://wiki.openstreetmap.org/wiki/Tag:natural%3Dpeak)
   buffer_size: 64
@@ -10,10 +13,11 @@ layer:
     name_de: German name `name:de` if available, otherwise `name` or `name:en`.
     class:
       description: |
-        Use the **class** to differentiate between mountain peak and volcano.
+        Use the **class** to differentiate between natural objects.
       values:
       - peak
       - volcano
+      - saddle
       - ridge
       - cliff
       - arete
