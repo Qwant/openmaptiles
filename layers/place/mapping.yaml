@@ -89,6 +89,7 @@ tables:
     mapping:
       place:
       - island
+      - islet
 
   # etldoc: imposm3 -> osm_island_point
   island_point:
