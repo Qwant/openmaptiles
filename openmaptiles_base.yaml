@@ -13,6 +13,7 @@ tileset:
     - layers/transportation_name/transportation_name.yaml
     - layers/place/place.yaml
     - layers/aerodrome_label/aerodrome_label.yaml
+    - layers/housenumber/housenumber.yaml
   name: OpenMapTiles
   version: 3.3.0
   id: openmaptiles
